@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define a bean for AmeerpetTechnologies -->
+    <bean id="institute" class="com.spring.eight.CollectionOfObjects.AmeerpetTechnologies">
+        <property name="empName">
+            <list>
+                <value>prani</value>
+                <value>bhavana</value>
+                <value>saru</value>
+                <value>vani</value>
+            </list>
+             </property>
+            <property name="empNum">
+            <set>
+				<value>1</value>
+				<value>2</value>
+				<value>3</value>
+				<value>4</value>
+			</set>
+			</property>
+			 <property name="empDeptNo">
+            <map>
+                <entry key="prani" value="101"/>
+                <entry key="bhavana" value="102"/>
+                <entry key="saru" value="103"/>
+                <entry key="vani" value="104"/>
+                
+            </map>
+            </property>
+             <property name="empSalary">
+            <props>
+                <prop key="prani">50000</prop>
+                <prop key="bhavana">60000</prop>
+                <prop key="saru">55000</prop>
+                 <prop key="vani">56000</prop>
+            </props>
+            </property>
+            
+            
+       
+         
+        
+    </bean>
+
+</beans>

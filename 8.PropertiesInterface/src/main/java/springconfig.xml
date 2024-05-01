@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define a bean for AmeerpetTechnologies -->
+    <bean id="institute" class="com.spring.eight.PropertiesInterface.AmeerpetTechnologies">
+        <property name="studentBatches">
+            <props>
+                <prop key="10th batch">
+					javafullstack
+				</prop>
+				<prop key="11th batch">
+					dotnet
+				</prop>
+				<prop key="12th batch">
+					pythonfullstack
+				</prop>
+                
+            </props>
+        </property>
+        <property name="empSalary">
+            <props>
+                <prop key="prani">50000</prop>
+                <prop key="vani">60000</prop>
+                <prop key="saru">55000</prop>
+                <prop key="vani">55000</prop>
+            </props>
+        </property>
+         
+        
+    </bean>
+
+</beans>

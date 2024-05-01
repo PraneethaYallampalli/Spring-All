@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="student" class="com.spring.fourth.StudentConstructorInjection.StudentBean">
+		<constructor-arg value="123"/>
+        <constructor-arg value="John Doe"/>
+        <constructor-arg value="java"/>
+        <constructor-arg value="10"/>
+        <constructor-arg value="hyd"/>
+        
+		
+	</bean>
+</beans>
